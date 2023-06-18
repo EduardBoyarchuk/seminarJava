@@ -1,4 +1,5 @@
 package seminars;
+import java.io.Console;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -44,4 +45,5 @@ public class SeminarThree {
             System.out.println("\nСуммв элементов: " + sum);
             System.out.println("\nСреднее значение: " + sum/2);
     }
+
 }

@@ -12,15 +12,25 @@ public class Main {
         int varNotMultiples = SeminarOne.notMultiplesNumArray(varRandBite);
         SeminarOne.showArray(varCount, varRandBite);
         SeminarOne.showArrayNotMultiples(varNotMultiples, varRandBite);
-        System.out.println();*/
+        System.out.println();
+        */
         //-----SeminarTwo-------------------
 
         //-----SeminarThree-----------------
-        SeminarThree obj = new SeminarThree();
+
+        //SeminarThree obj = new SeminarThree();
+        /*
         obj.NewArList();
 
         obj.OddNum();
         obj.MinMaxElem();
+        */
+
+        //-----SeminarFour--------------------
+
+        SeminarFour objFour = new SeminarFour();
+        objFour.enterConsole();
+        //objFour.printArrList();
 
     }
 }
