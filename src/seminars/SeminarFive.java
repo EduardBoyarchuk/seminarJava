@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SeminarFive {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Map<String, List<String>> knigaTelefonov = new HashMap<>();
 
         // Добавляем записи в телефонную книгу
@@ -28,5 +28,5 @@ public class SeminarFive {
         List<String> tefonNomera = telefon.getOrDefault(name, new ArrayList<>());
         tefonNomera.add(telefonNimer);
         telefon.put(name, tefonNomera);
-    }
+    }*/
 }
