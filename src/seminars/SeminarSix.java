@@ -29,6 +29,17 @@ public class SeminarSix {
         tel.clear();
         System.out.println("Proverka na pustotu");
         System.out.println(tel.isEmpty());
+        System.out.println("Metod toString");
+        tel.add(333);
+        tel.add(444);
+        tel.add(111);
+        tel.add(222);
+        String str = tel.toString();
+        System.out.println(str);
+        System.out.println("-----------------------------");
+        int element = tel.get(5);
+        System.out.println(element);
+
     }
 }
 
@@ -59,5 +70,24 @@ class Set<E> {
 
     public void clear(){
         set.clear();
+    }
+
+    //@Override
+    public String toString() {
+        return "toString{" + set.keySet() +
+                '}';
+    }
+    public E get(int index) {
+        if (index < 0 || index >= set.size()) {
+            System.out.println("ВЫ ОШИБЛИСЬ С ИНДЕКСАМИ");
+        }
+        int i = 0;
+        for (E element : set.keySet()) {
+            if (i == index) {
+                return element;
+            }
+            i++;
+        }
+        throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + set.size());
     }
 }
