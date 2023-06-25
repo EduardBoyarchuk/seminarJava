@@ -37,7 +37,7 @@ public class SeminarSix {
         String str = tel.toString();
         System.out.println(str);
         System.out.println("-----------------------------");
-        int element = tel.get(5);
+        int element = tel.get(0);
         System.out.println(element);
 
     }
